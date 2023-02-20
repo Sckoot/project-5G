@@ -23,7 +23,7 @@ root['bg']='white'
 label=Label(text='Для проверки поддержания 5G на вашем телефоне, введите модель устройства' , font=('Times New Roman', 15))
 label1=Label(text='или выберите из списка.', font=('Times New Roman', 15))
 combo=Combobox(root, width=30, font=('Times New Roman', 20))
-combo['values']=(tel+['нокия'])
+combo['values']=(['если вашего телефона в списке не окажется, то введите его вручную'] + tel+['Apple iPhone XS Max', 'Aplee iPhone XS', 'Apple iPhone Pro 11'])
 button=Button(text='Проверить',  font=('Times New Roman', 18), command=click)
 
 label.pack()
